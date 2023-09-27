@@ -21,4 +21,6 @@ class Criatura:
         self.id_habilidad3=id_habilidad3
     def calculo_dano(self,vida):
         self.hp-vida
-    
+    def estadisticas(self):
+        print(self.hp + self.atk + self.defensa + self.vel + self.mana)
+        

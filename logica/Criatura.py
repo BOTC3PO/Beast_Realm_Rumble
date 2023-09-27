@@ -19,3 +19,6 @@ class Criatura:
         self.id_habilidad1=id_habilidad1
         self.id_habilidad2=id_habilidad2
         self.id_habilidad3=id_habilidad3
+    def calculo_dano(self,vida):
+        self.hp-vida
+    

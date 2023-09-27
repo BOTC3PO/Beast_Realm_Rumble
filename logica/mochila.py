@@ -19,4 +19,5 @@ class mochila:
             self.monedas.index("silver")+coin
        else:
             print("no hay monedas")
-        
+
+

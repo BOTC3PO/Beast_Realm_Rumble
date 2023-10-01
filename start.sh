@@ -1,0 +1,1 @@
+C:/Python311/python.exe "d:/no borrar/Documentos/GitHub/Beast_Realm_Rumble/interfaz/main.py"

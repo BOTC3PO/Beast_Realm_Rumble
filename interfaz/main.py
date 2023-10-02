@@ -20,12 +20,12 @@ def iniciar():
     batalla()
       
 def batalla():
-    dialog0=Timer(5,dialogotimeout,args=(0))
-    dialog1=Timer(1,dialogotimeout,args=(1))
-    dialog2=Timer(2,dialogotimeout,args=(2))
+    dialog0=Timer(5,dialogotimeout,args=(0,))
     limpiar_pantalla()
     print("Instrucciones\nlos dialogos se pueden pasar apretando \"Q\"")   
-    keyboard.wait('q')  
+    keyboard.wait('q')
+    dialog1=Timer(1,dialogotimeout,args=(1,))
+    dialog2=Timer(2,dialogotimeout,args=(2,))  
     limpiar_pantalla()
     print('Beast Realm...')
     dialog0.start()

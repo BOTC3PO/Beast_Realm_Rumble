@@ -15,6 +15,7 @@ class Criatura:
         self.defensa=defensa
         self.vel=vel
         self.mana=mana
+        self.manares=mana
         self.pasiva=pasiva
         self.id_habilidad1=id_habilidad1
         self.id_habilidad2=id_habilidad2
@@ -22,5 +23,5 @@ class Criatura:
     def calculo_dano(self,vida):
         self.hp-vida
     def estadisticas(self):
-        print(self.hp + self.atk + self.defensa + self.vel + self.mana)
+        print(self.hp + self.atk + self.defensa + self.vel + self.manares)
         

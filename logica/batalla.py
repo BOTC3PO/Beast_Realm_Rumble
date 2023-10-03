@@ -17,6 +17,22 @@ class batalla:
                 kb.add_hotkey('a',batalla)
                 kb.add_hotkey('s',batalla)
                 kb.add_hotkey('d',batalla)
+                atk=True
+                atk1=False
+                atk2=False
+                atk3=False
+                while atk:
+                    if kb.is_pressed("a"):
+                        atk1=True
+                        atk=False
+                    if kb.is_pressed("s"):
+                        atk2=True
+                        atk=False
+                    if kb.is_pressed("d"):
+                        atk3=True
+                        atk=False
+                    
+                
             else:
                 opcion=0
                 posible = True
@@ -27,6 +43,7 @@ class batalla:
                             
                             pass
                     else:
+                        
                         pass
     def empezar(self,jugador,contrincante):
         fastplayer=False
